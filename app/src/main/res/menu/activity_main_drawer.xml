@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Ana Sayfa" />
+        <item
+            android:id="@+id/nav_peron"
+            android:icon="@drawable/reflesh"
+            android:title="Peron Değiştir" />
+        <item
+            android:id="@+id/nav_siparis"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Sipariş Miktarı Kontrol" />
+        <item
+        android:id="@+id/nav_internet"
+        android:icon="@drawable/ic_menu_send"
+        android:title="Internete Stok Gir" />
+        <item
+            android:id="@+id/nav_depo"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:title="Merkeze İade Et" />
+    </group>
+
+    <item android:title="Diğer">
+        <menu>
+            <item
+                android:id="@+id/nav_cikis"
+                android:icon="@drawable/cikis"
+                android:title="Kapat" />
+        </menu>
+    </item>
+
+</menu>
